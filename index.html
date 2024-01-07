@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Personal-Protfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Swapnil's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <seection class="firstSection">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="purple">Swapnil</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div>
+                    <button class="btn"><a href="img/my-resume.pdf" download>Download Resume</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/r-bg.png" alt="">
+            </div>
+        </seection>
+        <hr>
+    </main>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/person.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="h1-text">About Me</h1>
+                    <p class="p1">
+                        Hello! I'm Swapnil, a passionate and enthusiastic B.Sc. Computer Science student at North
+                        Maharashtra University. I have a strong foundation in HTML, CSS, JavaScript, Java, C++, and C,
+                        along with experience in creating a Spotify clone website. Additionally, I have console projects
+                        hosted on my GitHub account.
+                        I'm highly motivated to learn and explore new technologies and methodologies in the field of
+                        computer science. I possess excellent problem-solving skills and enjoy collaborating with teams
+                        to tackle challenging projects. Outside of coding, I love palying Games and listening Song.
+                        Feel free to explore my portfolio to learn more about my education, projects, and skills. Don't
+                        hesitate to contact me if you have any questions or opportunities for collaboration.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><strong>HTML:</strong><br> Proficient in creating structured web pages using HTML.</li>
+                            <li><strong>CSS:</strong><br> Skilled in styling web pages and responsive design using CSS
+                            </li>
+                            <li><strong>JavaScript:</strong><br> Experience in front-end development and interaction
+                                enhancement using vanilla JS</li>
+                            <li><strong>Java:</strong><br> Proficient in object-oriented programming and application
+                                development.</li>
+                            <li><strong>C++:</strong><br> Familiar with C++ for data structures and
+                                software
+                                development.</li>
+                            <li><strong>C:</strong><br> Knowledgeable in programming fundamentals using C.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <strong>Bachelor of Science (B.Sc.), Pursuing</strong>
+                                <p>North Maharashtra University</p>
+                                <p>Description: Currently pursuing B.Sc. at North Maharashtra University.</p>
+                                <p>Stream:Computer Science</p>
+                                <p>Expected Year of Graduation: [2025]</p>
+
+                            </li>
+                            </li>
+                            <li>
+                                <strong>12th Grade, Nashik Board</strong>
+                                <p>Year of Passing: 2022</p>
+                                <p>Percentage: 82%</p>
+                                <p>Stream: Science</p>
+                                <p>Description: Completed 12th grade with an excellent percentage in the Science stream.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li>
+                                <strong>Spotify Clone Website</strong>
+                                <p>Project Description: Created a Spotify clone website.</p>
+                                <p>Website: <a href="https://spotifywithswapnil.freewebhostmost.com"
+                                        target="_blank">spotifywithswapnil.freewebhostmost.com</a>
+                                </p>
+                            </li>
+                            <li>
+                                <strong>Console Projects on GitHub</strong>
+                                <p>Project Description: Various console projects hosted on GitHub.</p>
+                                <p>GitHub Repository: <a href="https://github.com/Swapnil-7262"
+                                        target="_blank">github.com/Swapnil-7262</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="left-contact">
+                <h1 class="h1-text">Contact Me</h1>
+                <p> <img class="invert" src="icons/email.svg" alt="">chaudharis7262@gmail.com</p>
+                <p><img class="invert" src="icons/contact.svg" alt="">9970817628</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/swapnil-chaudhari-613082266/" target="_blank"><img
+                            class="invert" src="icons/linkedin.svg" alt=""></a>
+                    <a href="https://www.instagram.com/swapnil_7262" target="_blank"><img class="invert"
+                            src="icons/inst.svg" alt=""> </a>
+                    <a href="https://www.facebook.com/" target="_blank"><img class="invert" src="icons/facebook.svg"
+                            alt=""></a>
+                </div>
+            </div>
+            <div class="right-contact">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <div class="buttons">
+                        <button class="btn2" type="submit">Submit</button>
+                        <button class="btn2" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Copyright &copy; 2024 Swapnil's Protfolio. All rights reserved.</p>
+        </div>
+    </footer>
+<!-- -------------------JavaScript------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer.', 'Web Developer.'],
+            typeSpeed: 50,
+        });
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxL_184-2ThGsXJtpPPVMNIfKNrAisjdVu7coh7yt6-aFgNf6QEMOfCCezqEKVYWxjP/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
